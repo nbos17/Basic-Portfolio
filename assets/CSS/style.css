@@ -11,6 +11,10 @@ body {
     border-bottom-width: 2px;
     border-bottom-color: #cccccc;
     margin-bottom: 30px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 .wrap {
     position: relative;
@@ -40,7 +44,7 @@ section {
     clear: both;
     margin: 0 auto;
 }
-#content1 {
+.content1 {
     color: #cccccc;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -80,7 +84,7 @@ aside {
     margin-left: 36px;
 
 }
-#social{
+.social{
     width: 70px;
     height: 70px;
     float: left;
@@ -114,4 +118,8 @@ a {
     width: 150px;
     float: left;
     margin-right: 20px;
+}
+#spacer {
+    width: 100%;
+    height: 120px;
 }
